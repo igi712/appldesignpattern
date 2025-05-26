@@ -1,5 +1,3 @@
-package headfirst.designpatterns.factory.pizzafm;
-
 public class NYStyleVeggiePizza extends Pizza {
 
 	public NYStyleVeggiePizza() {

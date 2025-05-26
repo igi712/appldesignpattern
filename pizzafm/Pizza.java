@@ -1,5 +1,3 @@
-package headfirst.designpatterns.factory.pizzafm;
-
 import java.util.ArrayList;
 
 public abstract class Pizza {

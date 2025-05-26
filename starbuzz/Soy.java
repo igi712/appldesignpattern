@@ -1,4 +1,3 @@
-package headfirst.designpatterns.decorator.starbuzz;
 
 public class Soy extends CondimentDecorator {
 	public Soy(Beverage beverage) {

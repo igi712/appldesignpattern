@@ -1,5 +1,3 @@
-package headfirst.designpatterns.factory.pizzafm;
-
 public class ChicagoPizzaStore extends PizzaStore {
 
 	Pizza createPizza(String item) {

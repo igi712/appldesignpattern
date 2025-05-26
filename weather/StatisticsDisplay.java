@@ -1,4 +1,3 @@
-package headfirst.designpatterns.observer.weather;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;

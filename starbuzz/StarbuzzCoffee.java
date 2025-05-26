@@ -1,4 +1,3 @@
-package headfirst.designpatterns.decorator.starbuzz;
 
 public class StarbuzzCoffee {
  
@@ -20,5 +19,11 @@ public class StarbuzzCoffee {
 		beverage3 = new Whip(beverage3);
 		System.out.println(beverage3.getDescription() 
 				+ " $" + beverage3.cost());
-	}
+
+		Beverage beverage4 = new EnergyDrink();
+		beverage4 = new Soy(beverage4);
+		beverage4 = new Ketchup(beverage4);
+		System.out.println(beverage4.getDescription() 
+				+ " $" + beverage4.cost());
+		}
 }

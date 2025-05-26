@@ -1,5 +1,3 @@
-package headfirst.designpatterns.factory.pizzafm;
-
 public abstract class PizzaStore {
  
 	abstract Pizza createPizza(String item);

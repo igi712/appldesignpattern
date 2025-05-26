@@ -1,5 +1,3 @@
-package headfirst.designpatterns.factory.pizzafm;
-
 public class ChicagoStylePepperoniPizza extends Pizza {
 	public ChicagoStylePepperoniPizza() {
 		name = "Chicago Style Pepperoni Pizza";

@@ -1,4 +1,3 @@
-package headfirst.designpatterns.observer.weather;
 
 import java.util.*;
 

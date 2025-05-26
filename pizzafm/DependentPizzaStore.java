@@ -1,5 +1,3 @@
-package headfirst.designpatterns.factory.pizzafm;
-
 public class DependentPizzaStore {
  
 	public Pizza createPizza(String style, String type) {
